@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Graphics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Grafika Komputerowa</h1>
+    <video width="100%" height="100%" id="video" loop autoplay muted>
+        <source src="img\graphics.mp4" type="video/mp4">
+    </video>
+    <nav>
+        <ul>
+            <li><span style="cursor:pointer" onclick="openNav()">&#9776; Menu</span></li>
+            <li>
+        </ul>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#pcgraphics" id="navoption1">Grafika Komputerowa</a>
+        <a href="#pixel" id="navoption2">Piksel</a>
+        <a href="#resolution" id="navoption3">Rozdzielczość</a>
+        <a href="#proportion" id="navoption4">Proporcje Ekranu</a>
+        <a href="#scaleimage" id="navoption5">Skalowanie Obrazu</a>
+        <a href="#compression" id="navoption6">Kompresja</a>
+        <a href="#graphicmodes" id="navoption7">Tryby Graficzne</a>
+        <a href="#rastervector" id="navoption8">Raster/Wektor</a>
+        <a href="#colors" id="navoption9">RGB/CMYK</a>
+        <a href="#dpi" id="navoption10">DPI</a>
+        <a href="#extensions" id="navoption11">Formaty Plików</a>
+      </div>
+      </div>
+    
+    <div id="pcgraphics" class="maincontainer">
+        <div id="graphicimagecontainer" class="imagecontainer1">
+            <img src="img/graphics.jpg" alt="graphics" class="image">
+        </div>
+        <div id="graphictextcontainer">
+            <h1 class="title">Grafika Komputerowa</h1>
+            <p class="text">
+                Grafika komputerowa to dyscyplina zajmująca się cyfrową syntezą i manipulacją 
+                treści wizualnych. Ze względu na reprezentację danych dzieli się na grafikę rastrową 
+                i wektorową, a ze względu na charakter danych na grafikę dwuwymiarową, trójwymiarową 
+                i ruchomą. Obejmuje także przetwarzanie obrazów. Grafika komputerowa stanowi podstawę 
+                współczesnych gier, animacji, symulacji oraz wizualizacji. Grafika komputerowa jest 
+                działem informatyki i grafiki.
+            </p>
+        </div>
+    </div>
+
+    <div id="pixel" class="maincontainer">
+        <div id="pixelimagecontainer" class="imagecontainer1">
+            <img src="img/pixel.jpg" alt="pixel" class="image">
+        </div>
+        <div id="pixeltextcontainer">
+            <h1 class="title">Piksel</h1>
+            <p class="text">
+                Piksel to najmniejszy jednolity (przedstawiający konkretny kolor) element obrazu
+                prezentowanego na wyświetlaczach urządzeń cyfrowych lub drukowanego w technice druku
+                punktowego. Nazwa piksel jest zbitką angielskich słów pictures oraz element.
+                Jeden piksel w odniesieniu do monitorów komputerowych to bardzo mały kwadrat
+                , prostokąt lub ewentualnie trójkąt widzialny z odległości użytkowej jako wypełniony 
+                jednolitym kolorem. Tryb pracy monitora, a konkretnie jego rozdzielczość, to właśnie 
+                liczba pikseli, jakie matryca ma w pionie i poziomie. Przykładowo matryca Full HD, czyli
+                o rozdzielczości 1920 × 1080, ma 1920 pikseli w każdej linii, a linii tych ma 1080. W 
+                przypadku wyświetlaczy w smartfonach lub tabletach rozmiar ich pikseli jest wielokrotnie
+                mniejszy ze względu na znacznie mniejszą odległość, z jakiej użytkownicy z nich korzystają.
+            </p>
+        </div>
+    </div>
+
+    <div id="pixelmore" class="maincontainer">
+        <div id="pixel2imagecontainer" class="imagecontainer1">
+            <img src="img/pixel_close_up.jpg" alt="pixelcloseup" id="imagepixclose" class="smallimage">
+            <p class="signature">Zbliżenie na piksele na wyświetlaczu</p>
+        </div>
+        <div id="pixel3imagecontainer" class="imagecontainer1">
+            <img src="img/pixel_type.jpg" alt="pixeltype" id="imagepixtype" class="smallimage">
+            <p class="signature">Piksele na różnych typach wyświetlaczy</p>
+        </div>
+    </div>
+
+    <div id="resolution" class="maincontainer">
+        <div id="pixeltextcontainer">
+            <h1 class="title">Rozdzielczość</h1>
+            <p class="text">
+                Rozdzielczość jeden z parametrów trybu wyświetlania, określający liczbę pikseli obrazu 
+                wyświetlanych na ekranie w bieżącym trybie pracy monitora komputerowego, telewizora lub 
+                innego wyświetlacza,którego obraz budowany jest z pikseli. Rozdzielczość wyraża się w postaci 
+                liczby pikseli w poziomie i w pionie. Rozdzielczość w poziomie składa się z pionowych linii, 
+                natomiast w pionie z poziomych linii.
+            </p>
+            <p class="text">
+                Dla telewizji cyfrowej i HDTV, typowe rozdzielczości pionowe interpolowane to: 480i, 576i,
+                1080i oraz progresywne to: 480p, 576p, 720p, 1080p, 2160p oraz 4320p linii. W profesjonalnych
+                zastosowaniach kinowych używane są częściej rozdzielczości typu 2K 16:9 (2048×1152), 
+                4K 16:9 (4096×2304), 8K 16:9 (8192×4608) itd.
+            </p>
+            <div id="resolutionimagecontainer" class="imagecontainer1">
+                <img src="img/resolution.jpg" alt="resolution" id="resolutionimg" class="image">
+            </div>
+        </div>
+    </div>
+
+    <div id="resolutionmore" class="maincontainer">
+        <div id="resolutionmoreimagecontainer" class="imagecontainer1">
+            <img src="img/restypes.png" alt="resolutiontypes" id="resolutiontype" class="smallimage">
+        </div>
+        <div id="resolutiontextcontainer">
+            <p class="signature">Najczęściej używane rozdzielczości</p>
+        </div>
+    </div>
+
+    <div id="proportion" class="maincontainer">
+        <div id="roportionimagecontainer" class="imagecontainer1">
+            <img src="img/43.png" alt="4:3" id="f43" class="smallimage">
+            <p class="signature">Format 4:3</p>
+            <p class=text id="signaturetext">
+                Obraz o proporcjach 4:3 jest standardowym formatem 
+                telewizyjnym wykorzystywanym od początku epoki telewizji,
+                oraz w wielu monitorach komputerowych. 
+            </p>
+        </div>
+        <div id="roportionimagecontainer" class="imagecontainer1">
+            <img src="img/169.png" alt="16:9" id="f169" class="smallimage">
+            <p class="signature">Format 16:9</p>
+            <p class=text id="signaturetext">
+                16:9 to międzynarodowy standard obrazu dla telewizji wysokiej
+                rozdzielczości HDTV wykorzystywanej na całym w transmisjach satelitarnych,
+                oraz telewizji panoramicznej standardowej rozdzielczości (EDTV).
+            </p>
+        </div>
+    </div>
+
+    <div id="scaleimage" class="maincontainer">
+        <div id="scaletextcontainer">
+            <h1 class="title">Skalowanie Obrazu</h1>
+            <p class="text">
+                Skalowanie obrazu to proces zmiany rozmiaru pliku cyfrowy wizerunek.
+                Zmniejszenie obrazu powoduje, że jest on mniejszy, a skalowanie w górę powiększa.
+                Obie grafika rastrowa i grafiki wektorowej można skalować, ale dają inne wyniki.
+            </p>
+        </div>
+        <div id="scaleimagecontainer" class="imagecontainer1">
+            <img src="img/scale.jpg" alt="graphics" class="image">
+        </div>
+    </div>
+
+    <div id="compression" class="maincontainer">
+        <div id="compressionimagecontainer" class="imagecontainer1">
+            <img src="img/compression.jpg" alt="compress" class="image">
+        </div>
+        <div id="pixeltextcontainer">
+            <h1 class="title">Kompresja</h1>
+            <p class="text">
+                Kompresja danych to zmiana sposobu zapisu informacji w celu zmniejszenia redundancji
+                i tym samym objętości zbioru. Innymi słowy chodzi o wyrażenie tego samego zestawu
+                informacji, lecz za pomocą mniejszej liczby bitów. Działaniem przeciwnym do kompresji
+                jest dekompresja.
+            </p>
+        </div>
+    </div>
+
+    <div id="graphicmodes" class="maincontainer">
+        <div id="graphmodestextcontainer">
+            <h1 class="title">Tryby Graficzne</h1>
+            <p class="text">
+                Tryb graficzny to tryb pracy karty graficznej, w którym jest ona zdolna do zmiany 
+                parametrów każdego piksela obrazu.
+            </p>
+            <p class="text">
+                Liczba pikseli na ekranie i liczba możliwych do uzyskania ich kolorów są zależne od 
+                możliwości sprzętowych karty graficznej, głównie od ilości zainstalowanej i obsługiwanej
+                przez nią pamięci. Parametry te zapisuje się poprzez podanie liczby możliwych do 
+                wyświetlenia punktów w poziomie i pionie oraz podanie liczby możliwych do wyświetlenia
+                w tym trybie kolorów. 
+            </p>
+            <p class="text">
+                Przykładem może być standard VGA, który umożliwia wyświetlenie 
+                obrazu o parametrach 640×480×16, czyli 640 pikseli w poziomie i 480 pikseli w pionie 
+                przy użyciu 16 różnych kolorów.
+            </p>
+            <!--Przepraszam, ale mój stan psychiczny nie był tutaj w najlepszym stanie-->
+            <table id="Connection terminated.
+            I'm sorry to interrupt you Lucas, if you still even remember that name. But I'm afraid you've been misinformed. You are not here to receive a gift, nor have you been called here by the individual you assume. Although you have indeed been called.
+            You have all been called here. Into a labyrinth of sounds and smells, misdirection and misfortune. A labyrinth with no exit, a maze with no prize. You don't even realize that you are trapped. Your lust for blood has driven you in endless circles, chasing the cries of children in some unseen chamber, always seeming so near, yet somehow out of reach.
+            But you will never find them, none of you will. This is where your story ends.
+            And to you, my brave volunteer, who somehow found this job listing not intended for you. Although there was a way out planned for you, I have a feeling that's not what you want. I have a feeling that you are right where you want to be. I am remaining as well, I am nearby.
+            This place will not be remembered, and the memory of everything that started this can finally begin to fade away. As the agony of every tragedy should. And to you monsters trapped in the corridors: Be still and give up your spirits, they don't belong to you.
+            For most of you, I believe there is peace and perhaps more waiting for you after the smoke clears. Although, for one of you, the darkest pit of Hell has opened to swallow you whole, so don't keep the devil waiting, old friend.
+            My daughter, if you can hear me, I knew you would return as well. It's in your nature to protect the innocent. I'm sorry that on that day, the day you were shut out and left to die, no one was there to lift you up into their arms the way you lifted others into yours. And then, what became of you.
+            I should have known you wouldn't be content to disappear, not my daughter. I couldn't save you then, so let me save you now.
+            It's time to rest. For you, and for those you have carried in your arms.
+            This ends for all of us.
+            End communication">
+                <tr>
+                  <th>Display Mode</th>
+                  <th>Resolution(pixels)</th>
+                </tr>
+                <tr>
+                  <td>VGA</td>
+                  <td>  640 x 480</td>
+                </tr>
+                <tr>
+                    <td>SVGA</td>
+                    <td>  800 x 600</td>
+                </tr>
+                <tr>
+                    <td>XGA</td>
+                    <td>  1024 x 768</td>
+                </tr>
+                <tr>
+                    <td>SXGA</td>
+                    <td>  1280 x 1024</td>
+                </tr>
+                <tr>
+                    <td>UXGA</td>
+                    <td>  1600 x 1200</td>
+                </tr>
+              </table>
+              
+        </div>
+        <div id="graphmodevideocontainer" class="imagecontainer1">
+            <video width="100%" height="100%" id="video2" controls>
+                <source src="img\BITS.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div id="rastervector" class="maincontainer">
+        <div id="roportionimagecontainer" class="imagecontainer1">
+            <h1 class="title" id="tractor">Grafika Rastrowa i Wektorowa</h1>
+            <img src="img/raster.png" alt="raster" id="raster" class="smallimage">
+            <p class="signature">Grafika Rastrowa</p>
+            <p class=text id="signaturetext2">
+                Grafika rastrowa to prezentacja obrazu za pomocą odpowiednio kolorowanych pikseli na monitorze
+                komputera, drukarce lub innym urządzeniu wyjściowym. W systemach komputerowych grafika 
+                rastrowa jest przechowywana w sposób skompresowany (stratnie lub bezstratnie) albo
+                nieskompresowany w wielu formatach plików graficznych. 
+            </p>
+        </div>
+        <div id="roportionimagecontainer" class="imagecontainer1">
+            <img src="img/Vector.png" alt="vector" id="vector" class="smallimage">
+            <p class="signature">Grafika Wektorowa</p>
+            <p class=text id="signaturetext2">
+                W grafice wektorowej obraz opisany jest za pomocą figur geometrycznych 
+                (2D) lub brył geometrycznych (3D), umiejscowionych w matematycznie zdefiniowanym układzie 
+                współrzędnych, odpowiednio dwu- lub trójwymiarowym.
+            </p>
+            <p class=text id="signaturetext2">
+                Największą różnicą grafiki wektorowej, w porównaniu do rastrowej, jest możliwość bezstratnego 
+                jej skalowania oraz druku, wypalania, czy wycinania za pomocą specjalistycznych maszyn.
+            </p>
+        </div>
+    </div>
+
+    <div id="colors" class="maincontainer">
+        <div id="colorsimagecontainer" class="imagecontainer1">
+            <h1 class="title" id="tractor">RGB a CMYK</h1>
+            <img src="img/RGB.png" alt="rgb" id="rgb" class="smallimage">
+            <p class="signature">RGB</p>
+            <p class=text id="signaturetext2">
+                RGB to jeden z modeli przestrzeni barw, opisywanej współrzędnymi RGB. 
+                Jego nazwa powstała ze złożenia pierwszych liter angielskich nazw barw: 
+                R – red (czerwonej), G – green (zielonej) i B – blue (niebieskiej), z których model ten 
+                się składa. Jest to model wynikający z właściwości odbiorczych ludzkiego oka, w którym 
+                wrażenie widzenia dowolnej barwy można wywołać przez zmieszanie w ustalonych proporcjach 
+                trzech wiązek światła o barwie czerwonej, zielonej i niebieskiej.
+            </p>
+        </div>
+        <div id="colorsimagecontainer" class="imagecontainer1">
+            <img src="img/CMYK.png" alt="cmyk" id="cmyk" class="smallimage">
+            <p class="signature">CMYK</p>
+            <p class=text id="signaturetext2">
+                CMYK to zestaw czterech podstawowych kolorów farb drukarskich stosowanych powszechnie w 
+                druku wielobarwnym w poligrafii. Na zestaw tych kolorów mówi się również barwy procesowe lub
+                kolory triadowe. CMYK to jednocześnie jedna z przestrzeni barw w pracy z grafiką komputerową.
+                Jego nazwa powstała ze złożenia pierwszych liter angielskich nazw barw: C – Cyan (Cyjan),
+                M – Magenta, Y – Tellow (żółtej) i K - Black (czarnej).
+            </p>
+        </div>
+    </div>
+
+    <div id="dpi" class="maincontainer">
+        <div id="dpiimagecontainer" class="imagecontainer1">
+            <img src="img/Dots.jpg" alt="dpi" class="image">
+        </div>
+        <div id="dpitextcontainer">
+            <h1 class="title">DPI   </h1>
+            <p class="text">
+                dpi (ang. dots per inch) – liczba punktów obrazu przypadająca na cal. Jednostka stosowana 
+                do określenia rozdzielczości obrazów generowanych przez drukarki, plotery, naświetlarki itp. 
+            </p>
+            <div id="dpiimagecontainer" class="imagecontainer1">
+                <img src="img/Wikipixel.png" alt="resolutiontypes" id="resolutiontype" class="smallimage">
+            </div>
+            <div id="dpitextcontainer">
+                <p class="signature">Symulacja wyglądu logo Wikipedii dla coraz niższych rozdzielczości dpi</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="extensions" class="maincontainer">
+        <div id="graphicimagecontainer" class="imagecontainer1">
+            <img src="img/code.jpg" alt="graphics" class="image">
+        </div>
+        <div id="extensionstextcontainer">
+            <h1 class="title">Formaty Plików</h1>
+            <p class="text">
+                <b>JPEG</b> – algorytm stratnej kompresji grafiki rastrowej, 
+                wykorzystany w formacie plików graficznych o tej samej nazwie. Motywacją do powstania tego 
+                standardu było ujednolicenie algorytmów kompresji obrazów monochromatycznych i kolorowych.
+            </p>
+            <p class="text">
+                <b>PNG</b> (ang. Portable Network Graphics) – rastrowy format plików graficznych oraz system
+                bezstratnej kompresji danych graficznych, został opracowany jako następca GIF w 1995 roku. 
+                Format PNG zalecany jest przez konsorcjum W3C jako preferowany format grafiki dla sieci WWW.
+            </p>
+            <p class="text">
+                <b>GIF</b> (ang. Graphics Interchange Format) – format pliku graficznego z kompresją bezstratną
+                , stworzony w 1987 roku przez firmę CompuServe. Pliki tego typu są powszechnie używane na 
+                stronach WWW, gdyż pozwalają na tworzenie prostych animacji ze zdefiniowanym kolorem tła jako
+                przezroczystym i określonym opóźnieniem przy odtwarzaniu poszczególnych klatek animacji.
+            </p>
+            <p class="text">
+                <b>BMP</b> – Opracowany pierwotnie dla systemu OS/2, wykorzystywany później także w interfejsach
+                systemów z rodziny Microsoft Windows™, jednak jako wolny od patentów jest dostępny i, mimo dużych
+                rozmiarów popularny również na wszystkich pozostałych platformach. Obsługuje tryby RGB oraz RGBA.
+            </p>
+            <p class="text">
+                <b>TIFF</b> (ang. Tagged Image File Format) – Format opracowany w 1986 roku przez Aldus Corporation, 
+                w porozumieniu z Microsoft i Hewlett-Packard. Prawa do formatu należą obecnie do spółki Adobe Systems. 
+                Format ten powstał z myślą o wykorzystaniu przez PostScript, pierwotnie dla programu PageMaker.
+            </p>
+            <p class="text">
+                <b>SVG</b> (ang. Scalable Vector Graphics) – uniwersalny format dwuwymiarowej grafiki wektorowej, 
+                nieobwarowany licencjami i patentami. Format SVG powstał z myślą o zastosowaniu na stronach WWW.
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
